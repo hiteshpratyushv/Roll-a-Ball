@@ -1,16 +1,58 @@
-div.navbar{
-	display: inline-block;
-}
-div ul{
+body{
 	margin: 0;
-	padding: 0 0 0 15px;
-	display: inline;
 }
 
-div ul li{
+header{
+	background: #222;
+	color: white;
+	padding: 15px 15px 15px 15px;
+}
+
+header h1{
+	margin:0 0 30px 0;
+}
+
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+.navbar ul li{
 	list-style-type: : none;
 	display: inline-block;
-	background: black;
+	background: #444;
 	color: white;
-	padding: 5px 20px;
+	padding: 10px 0;
+	margin-right: 10px;
+	width: 23%
+}
+
+.navbar ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+div.download{
+	background: #444;
+	padding: 10px;
+	font-family: arial;
+}
+
+.myPanel{
+	margin: 3%;
+	border: 1px solid #225E6B;
+	box-shadow:  0 0 4px #ccc;
+	border-radius: 5px 5px 5px 5px;
+	font-family: 
+}
+
+.myPanel .header{
+	background: #3AADC7;
+	padding: 10px 20px;
+	color: #225E6B;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.myPanel .body{
+	padding:  10px 20px;
 }
