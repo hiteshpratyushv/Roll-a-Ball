@@ -68,3 +68,16 @@ div.download{
 	margin: 0,10%;
 }
 
+div.game{
+	width: 100%;
+	background:#222;
+}
+
+.game p{
+	display: inline-block;
+}
+.game img{
+	float: right;
+	margin:;
+}
+
