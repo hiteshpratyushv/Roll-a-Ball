@@ -28,7 +28,7 @@ header h1{
 }
 
 .navbar ul li a{
-	color: white;
+	color: black;
 	text-decoration: none;
 }
 
@@ -39,20 +39,33 @@ div.download{
 }
 
 .myPanel{
-	margin: 3%;
-	border: 1px solid #225E6B;
-	box-shadow:  0 0 4px #ccc;
-	border-radius: 5px 5px 5px 5px;
-	font-family: 
+	margin: 1% 3% 3% 3%;
+	border: 1px solid #333;
+	border-radius:5px;
+	display: inline-block;
+	width: 75%;
+	border-radius: 5px 0px 0px 5px;
 }
 
 .myPanel .header{
-	background: #3AADC7;
-	padding: 10px 20px;
-	color: #225E6B;
-	border-radius: 5px 5px 5px 5px;
+	background: #333;
+	padding: 5px 10px;
+	border-radius: 5px;
 }
 
 .myPanel .body{
-	padding:  10px 20px;
+	padding:  5px 5px;
 }
+
+.myPanel ul{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.myPanel li{
+	list-style-type: : none;
+	display: inline-block;
+	margin: 0,10%;
+}
+
