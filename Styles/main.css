@@ -2,5 +2,15 @@ div.navbar{
 	display: inline-block;
 }
 div ul{
-	
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: inline;
+}
+
+div ul li{
+	list-style-type: : none;
+	display: inline-block;
+	background: black;
+	color: white;
+	padding: 5px 20px;
 }
